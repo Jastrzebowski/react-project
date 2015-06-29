@@ -12,5 +12,9 @@
   ],
   "author": "@jastrzebowski",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "node-libs-browser": "^0.5.2",
+    "webpack": "^1.10.0"
+  }
 }
