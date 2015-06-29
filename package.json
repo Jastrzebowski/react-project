@@ -1,0 +1,16 @@
+{
+  "name": "react-project",
+  "version": "1.0.0",
+  "description": "hell world project",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "react",
+    "helloworld"
+  ],
+  "author": "@jastrzebowski",
+  "license": "MIT",
+  "private": true
+}
