@@ -1,7 +1,11 @@
 import React from "react"
-import Greeting from "./greeting"
 
-React.render(
-  <Greeting name="World"/>,
-  document.body
-)
+export default React.createClass({
+  render: function() {
+    return (
+      <div className="greeting">
+        Hello, {this.props.name}!
+      </div>
+    )
+  },
+})
