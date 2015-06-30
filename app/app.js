@@ -1,2 +1,11 @@
-console.log("webpack rocks!");
-console.log("webpack rocks!");
+import React from "react"
+
+export default React.createClass({
+  render: function() {
+    return (
+      <div className="greeting">
+        Hello, {this.props.name}!
+      </div>
+    )
+  },
+})
