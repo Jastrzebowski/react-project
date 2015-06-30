@@ -15,7 +15,7 @@ module.exports = {
 			{
 				test: /\.js$/,
 				exclude: /node_modules/,
-				loaders: ["babel-loader"],
+				loaders: ["react-hot", "babel-loader"],
 			},
       {
         test: /\.html$/,
@@ -24,6 +24,6 @@ module.exports = {
 		]
 	},
   devServer: {
-    port: 9090,
+    port: 9090
   }
 }
