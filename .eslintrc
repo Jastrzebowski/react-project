@@ -20,10 +20,10 @@ rules:
     # http://eslint.org/docs/rules/space-before-blocks.html
     space-before-blocks: 2
 
-    # 4 space indent
+    # 2 space indent
     #
     # http://eslint.org/docs/rules/indent.html
-    indent: [2, 4, indentSwitchCase: true]
+    indent: [2, 2, indentSwitchCase: true]
 
     # Bracer style
     #
@@ -38,7 +38,7 @@ rules:
     # Force `use strict`
     #
     # http://eslint.org/docs/rules/strict.html
-    strict: 2
+    strict: 0
 
     # Disallow trailing commas
     #
