@@ -2,7 +2,7 @@
   "name": "react-project",
   "version": "1.0.0",
   "description": "hell world project",
-  "main": "app.js",
+  "main": "app/app.js",
   "scripts": {
     "test": "test",
     "start": "webpack-dev-server --hot --inline"
